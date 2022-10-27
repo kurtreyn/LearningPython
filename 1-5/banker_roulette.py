@@ -15,4 +15,3 @@ selected = names[option-1]
 print(f"names are: {names}, option is: {option}")
 print(f"{selected} is going to buy the meal today!")
 
-
