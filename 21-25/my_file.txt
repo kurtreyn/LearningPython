@@ -1,0 +1,2 @@
+Erasing original content of text file and creating new content.
+Adding new content to the text file.
