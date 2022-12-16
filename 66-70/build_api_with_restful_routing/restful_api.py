@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
-##Cafe TABLE Configuration
+## Cafe TABLE Configuration
 class Cafe(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
 	name = db.Column(db.String(250), unique=True, nullable=False)
